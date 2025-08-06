@@ -17,6 +17,7 @@ class Authenticator:
         """
         self.session = requests.Session()
         self.csrf_token = None
+        self.csrf_header = None
         self.is_logged_in = False
         self.verbose = verbose
         self.base_url = "https://class.mju.ac.kr"
@@ -54,6 +55,56 @@ class Authenticator:
 
         self.csrf_token = csrf_input['value']
         self._log(f"✅ CSRF 토큰 획득: {self.csrf_token}")
+    
+    def get_csrf_token(self) -> tuple[str, str]:
+        """
+        메인 페이지에서 CSRF 토큰과 헤더 정보를 BeautifulSoup으로 추출
+        
+        Returns:
+            tuple[str, str]: (헤더명, 토큰값) 튜플
+            
+        Raises:
+            CSRFTokenNotFoundError: CSRF 정보를 찾을 수 없는 경우
+            NotLoggedInError: 로그인이 되어있지 않은 경우
+        """
+        if not self.is_logged_in:
+            self._log("❌ 로그인이 되어있지 않습니다.")
+            raise NotLoggedInError()
+        
+        self._log("🔄 메인 페이지에서 CSRF 정보 추출 중...")
+        
+        try:
+            response = self.session.get(f"{self.base_url}/main?lang=ko", timeout=10)
+            response.raise_for_status()
+        except requests.exceptions.RequestException as e:
+            self._log(f"❌ 메인 페이지 접속 실패: {e}")
+            raise CSRFTokenNotFoundError(f"메인 페이지 접속 실패: {e}") from e
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # CSRF 토큰 추출
+        csrf_meta = soup.find('meta', {'name': '_csrf'})
+        csrf_header_meta = soup.find('meta', {'name': '_csrf_header'})
+        
+        if not csrf_meta or not csrf_meta.get('content'):
+            self._log("❌ CSRF 토큰 메타태그를 찾을 수 없습니다.")
+            raise CSRFTokenNotFoundError("메인 페이지에서 _csrf 토큰을 찾을 수 없습니다.")
+        
+        if not csrf_header_meta or not csrf_header_meta.get('content'):
+            self._log("❌ CSRF 헤더 메타태그를 찾을 수 없습니다.")
+            raise CSRFTokenNotFoundError("메인 페이지에서 _csrf_header를 찾을 수 없습니다.")
+        
+        csrf_token = csrf_meta['content']
+        csrf_header = csrf_header_meta['content']
+        
+        # 인스턴스 변수에도 저장
+        self.csrf_token = csrf_token
+        self.csrf_header = csrf_header
+        
+        self._log(f"✅ CSRF 헤더: {csrf_header}")
+        self._log(f"✅ CSRF 토큰: {csrf_token}")
+        
+        return csrf_header, csrf_token
     
     def login(self, username: str, password: str) -> bool:
         """
@@ -153,6 +204,9 @@ class Authenticator:
         else:
             self._log("❌ 로그인이 되어있지 않습니다.")
             raise NotLoggedInError()
+    
+    
+    
         
             
     

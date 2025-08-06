@@ -1,5 +1,4 @@
 import json
-import re
 import requests
 from typing import List, Optional
 
@@ -7,6 +6,7 @@ from mju_sugang_alarm.dto.request_lecture import RequestLecture
 from mju_sugang_alarm.dto.response_lecture import ResponseLecture, LectureSearchResponse
 from mju_sugang_alarm.repository.lecture_repository import CourseRepository
 from mju_sugang_alarm.course_list_crawler.authenticator import Authenticator
+
 from mju_sugang_alarm.exceptions import NotLoggedInError, ConnectionFailedError
 
 
@@ -26,98 +26,11 @@ class LectureDataFetcher:
         self.repository = repository
         self.verbose = verbose
         self.base_url = "https://class.mju.ac.kr"
-        self.csrf_header = None
-        self.csrf_token = None
         
     def _log(self, message: str):
         """로그 메시지를 출력합니다."""
         if self.verbose:
             print(message)
-    
-    def _prepare_csrf_token(self) -> bool:
-        """검색을 위한 CSRF 토큰 준비"""
-        try:
-            # 세션 가져오기
-            session = self.authenticator.get_session()
-            
-            # 가능한 페이지 경로들을 시도
-            possible_paths = [
-                "/main",
-                "/main?lang=ko", 
-                "/lecture/search",
-                "/student/lecture",
-                "/sugang/main",
-                "/"
-            ]
-            
-            search_page = None
-            for path in possible_paths:
-                try:
-                    self._log(f"🔍 페이지 시도: {self.base_url}{path}")
-                    search_page = session.get(f"{self.base_url}{path}", timeout=10)
-                    self._log(f"� 응답 상태: {search_page.status_code}")
-                    
-                    if search_page.status_code == 200:
-                        self._log(f"✅ 성공한 페이지: {path}")
-                        break
-                except Exception as e:
-                    self._log(f"❌ {path} 접속 실패: {e}")
-                    continue
-            
-            if not search_page or search_page.status_code != 200:
-                self._log("❌ 모든 페이지 접속 실패")
-                return False
-            
-            # CSRF 토큰 패턴들 (실제 페이지 구조에 맞춤)
-            csrf_header_patterns = [
-                r'<meta[^>]+name="_csrf_header"[^>]+content="([^"]+)"',
-                r'<meta[^>]+id="_csrf_header"[^>]+content="([^"]+)"',
-                r'var\s+CSRFHEADER\s*=\s*["\']([^"\']+)["\']',
-            ]
-            
-            csrf_token_patterns = [
-                r'<meta[^>]+name="_csrf"[^>]+content="([^"]+)"',
-                r'<meta[^>]+id="_csrf"[^>]+content="([^"]+)"',
-                r'var\s+CSRFTOKEN\s*=\s*["\']([^"\']+)["\']',
-                r'<input[^>]+name="_csrf"[^>]+value="([^"]+)"'
-            ]
-            
-            # CSRF 헤더 검색
-            for pattern in csrf_header_patterns:
-                match = re.search(pattern, search_page.text, re.IGNORECASE)
-                if match:
-                    self.csrf_header = match.group(1)
-                    break
-            
-            # CSRF 토큰 검색
-            for pattern in csrf_token_patterns:
-                match = re.search(pattern, search_page.text, re.IGNORECASE)
-                if match:
-                    self.csrf_token = match.group(1)
-                    break
-            
-            # 기존 authenticator의 CSRF 토큰도 시도
-            if not self.csrf_token and hasattr(self.authenticator, 'csrf_token') and self.authenticator.csrf_token:
-                self.csrf_token = self.authenticator.csrf_token
-                self._log("🔄 기존 authenticator CSRF 토큰 사용")
-            
-            if self.csrf_header and self.csrf_token:
-                self._log(f"✅ CSRF 헤더: {self.csrf_header}")
-                self._log(f"✅ CSRF 토큰: {self.csrf_token}")
-                return True
-            elif self.csrf_token:
-                self._log(f"✅ CSRF 토큰만 발견: {self.csrf_token}")
-                return True
-            else:
-                self._log("⚠️ CSRF 정보를 찾을 수 없지만 계속 진행합니다...")
-                # 디버깅을 위해 페이지 내용 일부 출력
-                self._log("페이지 내용 샘플:")
-                self._log(search_page.text[:1000])
-                return True
-                
-        except requests.exceptions.RequestException as e:
-            self._log(f"❌ 페이지 접속 실패: {e}")
-            return False
     
     def fetch_lectures(self, request: RequestLecture) -> Optional[LectureSearchResponse]:
         """
@@ -134,30 +47,26 @@ class LectureDataFetcher:
             self.authenticator.verify_session()
             session = self.authenticator.get_session()
             
-            # CSRF 토큰 준비
-            if not self._prepare_csrf_token():
-                self._log("❌ CSRF 토큰 준비 실패")
+            # CSRF 토큰과 헤더 정보 가져오기
+            try:
+                csrf_header, csrf_token = self.authenticator.get_csrf_token()
+            except Exception as e:
+                self._log(f"❌ CSRF 토큰 획득 실패: {e}")
                 return None
             
             self._log(f"🔍 강의 검색 중: {request.to_dict()}")
             
             # 요청 데이터 구성
             request_data = request.to_dict()
-            
-            # CSRF 토큰 추가 (사용 가능한 경우)
-            if self.csrf_token:
-                request_data['_csrf'] = self.csrf_token
+            request_data['_csrf'] = csrf_token
             
             # 헤더 구성
             headers = {
                 "Content-Type": "application/x-www-form-urlencoded",
                 "X-Requested-With": "XMLHttpRequest",
-                "Referer": f"{self.base_url}/main?lang=ko"
+                "Referer": f"{self.base_url}/main?lang=ko",
+                csrf_header: csrf_token
             }
-            
-            # CSRF 헤더 추가 (사용 가능한 경우)
-            if self.csrf_header and self.csrf_token:
-                headers[self.csrf_header] = self.csrf_token
             
             # AJAX 요청
             response = session.post(
@@ -263,8 +172,8 @@ class LectureDataFetcher:
                     self._log(f"❌ '{category_name}' 검색 실패")
                 
                 # 요청 간 잠시 대기 (서버 부하 방지)
-                import time
-                time.sleep(0.01)
+                # import time
+                # time.sleep(0.01)
         
         self._log(f"🎉 전체 결과: {success_count}/{len(lecture_search_data)} 카테고리 성공, 총 {total_lectures}개 강의 수집")
         return success_count

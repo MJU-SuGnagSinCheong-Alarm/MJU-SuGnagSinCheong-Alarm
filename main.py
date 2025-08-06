@@ -7,7 +7,7 @@ from mju_sugang_alarm.dto.request_lecture import RequestLecture
 
 def main():
     # 로그인 정보 (실제 사용 시 환경변수나 설정파일 사용 권장)
-    username = "60222100"
+    username = "YourUsername"  # 예: "6022"
     password = "Jaja8794@"
     
     # 컴포넌트 초기화

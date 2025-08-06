@@ -1,6 +1,6 @@
 🔐 로그인 시도 중...
 🔄 로그인 페이지 접속 중...
-✅ CSRF 토큰 획득: 91cfde5d-69fb-408c-9303-b512b52c86cc
+✅ CSRF 토큰 획득: 007921a8-52e8-4d90-9650-280368496b5c
 🔐 로그인 요청 중...
 🎉 로그인 성공!
 🏠 메인 페이지 접속: https://class.mju.ac.kr/main?lang=ko
@@ -14,7 +14,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '01', 'searchType': '1', 'excludeDay': ''}
 ✅ 12개 강의 검색 완료
 💾 12개 강의 데이터 저장 완료
@@ -26,7 +26,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '02', 'searchType': '1', 'excludeDay': ''}
 ✅ 6개 강의 검색 완료
 💾 6개 강의 데이터 저장 완료
@@ -38,7 +38,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '03', 'searchType': '1', 'excludeDay': ''}
 ✅ 37개 강의 검색 완료
 💾 37개 강의 데이터 저장 완료
@@ -50,7 +50,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '04', 'searchType': '1', 'excludeDay': ''}
 ✅ 53개 강의 검색 완료
 💾 53개 강의 데이터 저장 완료
@@ -62,7 +62,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '05', 'searchType': '1', 'excludeDay': ''}
 ✅ 53개 강의 검색 완료
 💾 53개 강의 데이터 저장 완료
@@ -74,7 +74,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '06', 'searchType': '1', 'excludeDay': ''}
 ✅ 49개 강의 검색 완료
 💾 49개 강의 데이터 저장 완료
@@ -86,7 +86,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '19', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -98,7 +98,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '11', 'searchType': '1', 'excludeDay': ''}
 ✅ 12개 강의 검색 완료
 💾 12개 강의 데이터 저장 완료
@@ -110,7 +110,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '12', 'searchType': '1', 'excludeDay': ''}
 ✅ 21개 강의 검색 완료
 💾 21개 강의 데이터 저장 완료
@@ -122,7 +122,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '13', 'searchType': '1', 'excludeDay': ''}
 ✅ 16개 강의 검색 완료
 💾 16개 강의 데이터 저장 완료
@@ -134,7 +134,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '14', 'searchType': '1', 'excludeDay': ''}
 ✅ 105개 강의 검색 완료
 💾 105개 강의 데이터 저장 완료
@@ -146,7 +146,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '15', 'searchType': '1', 'excludeDay': ''}
 ✅ 0개 강의 검색 완료
 💾 0개 강의 데이터 저장 완료
@@ -158,7 +158,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '16', 'searchType': '1', 'excludeDay': ''}
 ✅ 31개 강의 검색 완료
 💾 31개 강의 데이터 저장 완료
@@ -170,7 +170,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '17', 'searchType': '1', 'excludeDay': ''}
 ✅ 7개 강의 검색 완료
 💾 7개 강의 데이터 저장 완료
@@ -182,7 +182,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '18', 'searchType': '1', 'excludeDay': ''}
 ✅ 19개 강의 검색 완료
 💾 19개 강의 데이터 저장 완료
@@ -194,7 +194,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 8개 강의 검색 완료
 💾 8개 강의 데이터 저장 완료
@@ -206,7 +206,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '10000', 'displayDiv': '30', 'searchType': '1', 'excludeDay': ''}
 ✅ 9개 강의 검색 완료
 💾 9개 강의 데이터 저장 완료
@@ -218,7 +218,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15400', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 7개 강의 검색 완료
 💾 7개 강의 데이터 저장 완료
@@ -230,7 +230,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15411', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 25개 강의 검색 완료
 💾 25개 강의 데이터 저장 완료
@@ -242,7 +242,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15412', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 19개 강의 검색 완료
 💾 19개 강의 데이터 저장 완료
@@ -254,7 +254,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15420', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -266,7 +266,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15421', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 24개 강의 검색 완료
 💾 24개 강의 데이터 저장 완료
@@ -278,7 +278,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15422', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 22개 강의 검색 완료
 💾 22개 강의 데이터 저장 완료
@@ -290,7 +290,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15423', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 16개 강의 검색 완료
 💾 16개 강의 데이터 저장 완료
@@ -302,7 +302,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15431', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 34개 강의 검색 완료
 💾 34개 강의 데이터 저장 완료
@@ -314,7 +314,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15600', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 8개 강의 검색 완료
 💾 8개 강의 데이터 저장 완료
@@ -326,7 +326,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15610', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 6개 강의 검색 완료
 💾 6개 강의 데이터 저장 완료
@@ -338,7 +338,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15611', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 34개 강의 검색 완료
 💾 34개 강의 데이터 저장 완료
@@ -350,7 +350,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15612', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 24개 강의 검색 완료
 💾 24개 강의 데이터 저장 완료
@@ -362,7 +362,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15621', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 33개 강의 검색 완료
 💾 33개 강의 데이터 저장 완료
@@ -374,7 +374,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15622', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 37개 강의 검색 완료
 💾 37개 강의 데이터 저장 완료
@@ -386,7 +386,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15630', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 24개 강의 검색 완료
 💾 24개 강의 데이터 저장 완료
@@ -398,7 +398,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15640', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 19개 강의 검색 완료
 💾 19개 강의 데이터 저장 완료
@@ -410,7 +410,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15650', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 5개 강의 검색 완료
 💾 5개 강의 데이터 저장 완료
@@ -422,7 +422,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15800', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -434,7 +434,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15808', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 13개 강의 검색 완료
 💾 13개 강의 데이터 저장 완료
@@ -446,7 +446,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15809', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 12개 강의 검색 완료
 💾 12개 강의 데이터 저장 완료
@@ -458,7 +458,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15811', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 15개 강의 검색 완료
 💾 15개 강의 데이터 저장 완료
@@ -470,7 +470,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15821', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 17개 강의 검색 완료
 💾 17개 강의 데이터 저장 완료
@@ -482,7 +482,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '15822', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 27개 강의 검색 완료
 💾 27개 강의 데이터 저장 완료
@@ -494,7 +494,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17609', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 9개 강의 검색 완료
 💾 9개 강의 데이터 저장 완료
@@ -506,7 +506,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17610', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 61개 강의 검색 완료
 💾 61개 강의 데이터 저장 완료
@@ -518,7 +518,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17621', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 43개 강의 검색 완료
 💾 43개 강의 데이터 저장 완료
@@ -530,7 +530,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17622', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 28개 강의 검색 완료
 💾 28개 강의 데이터 저장 완료
@@ -542,7 +542,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17630', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 5개 강의 검색 완료
 💾 5개 강의 데이터 저장 완료
@@ -554,7 +554,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17631', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 15개 강의 검색 완료
 💾 15개 강의 데이터 저장 완료
@@ -566,7 +566,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17632', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 19개 강의 검색 완료
 💾 19개 강의 데이터 저장 완료
@@ -578,7 +578,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17633', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 17개 강의 검색 완료
 💾 17개 강의 데이터 저장 완료
@@ -590,7 +590,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17640', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 6개 강의 검색 완료
 💾 6개 강의 데이터 저장 완료
@@ -602,7 +602,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17641', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 26개 강의 검색 완료
 💾 26개 강의 데이터 저장 완료
@@ -614,7 +614,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '17642', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 30개 강의 검색 완료
 💾 30개 강의 데이터 저장 완료
@@ -626,7 +626,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '18000', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 11개 강의 검색 완료
 💾 11개 강의 데이터 저장 완료
@@ -638,7 +638,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '18030', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 40개 강의 검색 완료
 💾 40개 강의 데이터 저장 완료
@@ -650,7 +650,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '18031', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 8개 강의 검색 완료
 💾 8개 강의 데이터 저장 완료
@@ -662,7 +662,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '18032', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 3개 강의 검색 완료
 💾 3개 강의 데이터 저장 완료
@@ -674,7 +674,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '18040', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 13개 강의 검색 완료
 💾 13개 강의 데이터 저장 완료
@@ -686,7 +686,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '19000', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -698,7 +698,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '19034', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -710,7 +710,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '10', 'deptCd': '19038', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -722,7 +722,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '01', 'searchType': '1', 'excludeDay': ''}
 ✅ 12개 강의 검색 완료
 💾 12개 강의 데이터 저장 완료
@@ -734,7 +734,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '02', 'searchType': '1', 'excludeDay': ''}
 ✅ 9개 강의 검색 완료
 💾 9개 강의 데이터 저장 완료
@@ -746,7 +746,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '03', 'searchType': '1', 'excludeDay': ''}
 ✅ 45개 강의 검색 완료
 💾 45개 강의 데이터 저장 완료
@@ -758,7 +758,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '04', 'searchType': '1', 'excludeDay': ''}
 ✅ 63개 강의 검색 완료
 💾 63개 강의 데이터 저장 완료
@@ -770,7 +770,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '05', 'searchType': '1', 'excludeDay': ''}
 ✅ 79개 강의 검색 완료
 💾 79개 강의 데이터 저장 완료
@@ -782,7 +782,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '06', 'searchType': '1', 'excludeDay': ''}
 ✅ 66개 강의 검색 완료
 💾 66개 강의 데이터 저장 완료
@@ -794,7 +794,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '19', 'searchType': '1', 'excludeDay': ''}
 ✅ 2개 강의 검색 완료
 💾 2개 강의 데이터 저장 완료
@@ -806,7 +806,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '11', 'searchType': '1', 'excludeDay': ''}
 ✅ 54개 강의 검색 완료
 💾 54개 강의 데이터 저장 완료
@@ -818,7 +818,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '12', 'searchType': '1', 'excludeDay': ''}
 ✅ 16개 강의 검색 완료
 💾 16개 강의 데이터 저장 완료
@@ -830,7 +830,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '13', 'searchType': '1', 'excludeDay': ''}
 ✅ 77개 강의 검색 완료
 💾 77개 강의 데이터 저장 완료
@@ -842,7 +842,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '14', 'searchType': '1', 'excludeDay': ''}
 ✅ 4개 강의 검색 완료
 💾 4개 강의 데이터 저장 완료
@@ -854,7 +854,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '15', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -866,7 +866,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '16', 'searchType': '1', 'excludeDay': ''}
 ✅ 23개 강의 검색 완료
 💾 23개 강의 데이터 저장 완료
@@ -878,7 +878,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '17', 'searchType': '1', 'excludeDay': ''}
 ✅ 30개 강의 검색 완료
 💾 30개 강의 데이터 저장 완료
@@ -890,7 +890,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '18', 'searchType': '1', 'excludeDay': ''}
 ✅ 10개 강의 검색 완료
 💾 10개 강의 데이터 저장 완료
@@ -902,7 +902,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 4개 강의 검색 완료
 💾 4개 강의 데이터 저장 완료
@@ -914,7 +914,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '20000', 'displayDiv': '30', 'searchType': '1', 'excludeDay': ''}
 ✅ 7개 강의 검색 완료
 💾 7개 강의 데이터 저장 완료
@@ -926,7 +926,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14000', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 14개 강의 검색 완료
 💾 14개 강의 데이터 저장 완료
@@ -938,7 +938,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14190', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 8개 강의 검색 완료
 💾 8개 강의 데이터 저장 완료
@@ -950,7 +950,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14212', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 9개 강의 검색 완료
 💾 9개 강의 데이터 저장 완료
@@ -962,7 +962,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14240', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 10개 강의 검색 완료
 💾 10개 강의 데이터 저장 완료
@@ -974,7 +974,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14250', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 14개 강의 검색 완료
 💾 14개 강의 데이터 저장 완료
@@ -986,7 +986,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14411', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 17개 강의 검색 완료
 💾 17개 강의 데이터 저장 완료
@@ -998,7 +998,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14412', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 19개 강의 검색 완료
 💾 19개 강의 데이터 저장 완료
@@ -1010,7 +1010,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14000', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 14개 강의 검색 완료
 💾 14개 강의 데이터 저장 완료
@@ -1022,7 +1022,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14190', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 8개 강의 검색 완료
 💾 8개 강의 데이터 저장 완료
@@ -1034,7 +1034,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14212', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 9개 강의 검색 완료
 💾 9개 강의 데이터 저장 완료
@@ -1046,7 +1046,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14240', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 10개 강의 검색 완료
 💾 10개 강의 데이터 저장 완료
@@ -1058,7 +1058,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14250', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 14개 강의 검색 완료
 💾 14개 강의 데이터 저장 완료
@@ -1070,7 +1070,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14411', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 17개 강의 검색 완료
 💾 17개 강의 데이터 저장 완료
@@ -1082,7 +1082,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14412', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 19개 강의 검색 완료
 💾 19개 강의 데이터 저장 완료
@@ -1094,7 +1094,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14413', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 19개 강의 검색 완료
 💾 19개 강의 데이터 저장 완료
@@ -1106,7 +1106,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14414', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -1118,7 +1118,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14421', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 14개 강의 검색 완료
 💾 14개 강의 데이터 저장 완료
@@ -1130,7 +1130,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14422', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 27개 강의 검색 완료
 💾 27개 강의 데이터 저장 완료
@@ -1142,7 +1142,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14423', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 2개 강의 검색 완료
 💾 2개 강의 데이터 저장 완료
@@ -1154,7 +1154,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14424', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 14개 강의 검색 완료
 💾 14개 강의 데이터 저장 완료
@@ -1166,7 +1166,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14600', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -1178,7 +1178,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14611', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 15개 강의 검색 완료
 💾 15개 강의 데이터 저장 완료
@@ -1190,7 +1190,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14612', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 20개 강의 검색 완료
 💾 20개 강의 데이터 저장 완료
@@ -1202,7 +1202,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '14620', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 30개 강의 검색 완료
 💾 30개 강의 데이터 저장 완료
@@ -1214,7 +1214,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16400', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 2개 강의 검색 완료
 💾 2개 강의 데이터 저장 완료
@@ -1226,7 +1226,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16471', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 26개 강의 검색 완료
 💾 26개 강의 데이터 저장 완료
@@ -1238,7 +1238,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16472', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 17개 강의 검색 완료
 💾 17개 강의 데이터 저장 완료
@@ -1250,7 +1250,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16481', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 23개 강의 검색 완료
 💾 23개 강의 데이터 저장 완료
@@ -1262,7 +1262,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16482', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -1274,7 +1274,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16483', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 1개 강의 검색 완료
 💾 1개 강의 데이터 저장 완료
@@ -1286,7 +1286,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16490', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 34개 강의 검색 완료
 💾 34개 강의 데이터 저장 완료
@@ -1298,7 +1298,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16600', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 69개 강의 검색 완료
 💾 69개 강의 데이터 저장 완료
@@ -1310,7 +1310,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16640', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 11개 강의 검색 완료
 💾 11개 강의 데이터 저장 완료
@@ -1322,7 +1322,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16650', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 15개 강의 검색 완료
 💾 15개 강의 데이터 저장 완료
@@ -1334,7 +1334,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16671', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 18개 강의 검색 완료
 💾 18개 강의 데이터 저장 완료
@@ -1346,7 +1346,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '16672', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 13개 강의 검색 완료
 💾 13개 강의 데이터 저장 완료
@@ -1358,7 +1358,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17200', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 38개 강의 검색 완료
 💾 38개 강의 데이터 저장 완료
@@ -1370,7 +1370,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17205', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 4개 강의 검색 완료
 💾 4개 강의 데이터 저장 완료
@@ -1382,7 +1382,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17220', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 13개 강의 검색 완료
 💾 13개 강의 데이터 저장 완료
@@ -1394,7 +1394,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17230', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 14개 강의 검색 완료
 💾 14개 강의 데이터 저장 완료
@@ -1406,7 +1406,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17235', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 2개 강의 검색 완료
 💾 2개 강의 데이터 저장 완료
@@ -1418,7 +1418,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17250', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 11개 강의 검색 완료
 💾 11개 강의 데이터 저장 완료
@@ -1430,7 +1430,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17255', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 5개 강의 검색 완료
 💾 5개 강의 데이터 저장 완료
@@ -1442,7 +1442,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17260', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 12개 강의 검색 완료
 💾 12개 강의 데이터 저장 완료
@@ -1454,7 +1454,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17265', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 3개 강의 검색 완료
 💾 3개 강의 데이터 저장 완료
@@ -1466,7 +1466,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17270', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 12개 강의 검색 완료
 💾 12개 강의 데이터 저장 완료
@@ -1478,7 +1478,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17275', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 3개 강의 검색 완료
 💾 3개 강의 데이터 저장 완료
@@ -1490,7 +1490,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17280', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 11개 강의 검색 완료
 💾 11개 강의 데이터 저장 완료
@@ -1502,7 +1502,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17290', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 7개 강의 검색 완료
 💾 7개 강의 데이터 저장 완료
@@ -1514,7 +1514,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17295', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 4개 강의 검색 완료
 💾 4개 강의 데이터 저장 완료
@@ -1526,7 +1526,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17310', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 14개 강의 검색 완료
 💾 14개 강의 데이터 저장 완료
@@ -1538,7 +1538,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17320', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 6개 강의 검색 완료
 💾 6개 강의 데이터 저장 완료
@@ -1550,7 +1550,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17330', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 4개 강의 검색 완료
 💾 4개 강의 데이터 저장 완료
@@ -1562,7 +1562,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17350', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 12개 강의 검색 완료
 💾 12개 강의 데이터 저장 완료
@@ -1574,7 +1574,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17355', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 4개 강의 검색 완료
 💾 4개 강의 데이터 저장 완료
@@ -1586,7 +1586,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17360', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 4개 강의 검색 완료
 💾 4개 강의 데이터 저장 완료
@@ -1598,7 +1598,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17362', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 5개 강의 검색 완료
 💾 5개 강의 데이터 저장 완료
@@ -1610,7 +1610,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17365', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 4개 강의 검색 완료
 💾 4개 강의 데이터 저장 완료
@@ -1622,7 +1622,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '17367', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 3개 강의 검색 완료
 💾 3개 강의 데이터 저장 완료
@@ -1634,7 +1634,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '18600', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 13개 강의 검색 완료
 💾 13개 강의 데이터 저장 완료
@@ -1646,7 +1646,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '18610', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 17개 강의 검색 완료
 💾 17개 강의 데이터 저장 완료
@@ -1658,7 +1658,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '18620', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 8개 강의 검색 완료
 💾 8개 강의 데이터 저장 완료
@@ -1670,7 +1670,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '18621', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 13개 강의 검색 완료
 💾 13개 강의 데이터 저장 완료
@@ -1682,7 +1682,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '18622', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 6개 강의 검색 완료
 💾 6개 강의 데이터 저장 완료
@@ -1694,7 +1694,7 @@
 � 응답 상태: 200
 ✅ 성공한 페이지: /main
 ✅ CSRF 헤더: X-CSRF-TOKEN
-✅ CSRF 토큰: a15e5a7c-72e1-4d8e-8998-104db4caaf50
+✅ CSRF 토큰: 683c9d3d-4108-49e4-afb9-2cb60144dffe
 🔍 강의 검색 중: {'courseCls': '', 'curiNm': '', 'campusDiv': '20', 'deptCd': '19036', 'displayDiv': '27', 'searchType': '1', 'excludeDay': ''}
 ✅ 2개 강의 검색 완료
 💾 2개 강의 데이터 저장 완료
