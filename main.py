@@ -9,20 +9,20 @@ from mju_sugang_alarm.dto.request_lecture import RequestLecture
 
 def main():
     # 로그인 정보 (실제 사용 시 환경변수나 설정파일 사용 권장)
-    username = "60222100"  # 예: "6022"
-    password = "Jaja8794@"
+    username = "YOUR_USERNAME"  # 예: "6022"
+    password = "YOUR_PASSWORD"
     
     # 1. authenticator 생성
-    auth = Authenticator(verbose=False)
+    auth = Authenticator(verbose=True)
     
     # 2. repository 생성
     repository = CourseRepository()
     
     # 3. data_fetcher 생성 (repository 의존성 없음)
-    data_fetcher = LectureDataFetcher(auth, verbose=False)
+    data_fetcher = LectureDataFetcher(auth, verbose=True)
     
     # 4. crawler 생성 (외부에서 주입받음)
-    crawler = LectureCrawler(data_fetcher, repository, verbose=False)
+    crawler = LectureCrawler(data_fetcher, repository, verbose=True)
     
     # 5. 로그인
     if not auth.login(username, password):
