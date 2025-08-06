@@ -117,6 +117,7 @@ dependencies = [
     { name = "bs4" },
     { name = "dotenv" },
     { name = "pytest" },
+    { name = "python-dotenv" },
     { name = "requests" },
 ]
 
@@ -125,6 +126,7 @@ requires-dist = [
     { name = "bs4", specifier = ">=0.0.2" },
     { name = "dotenv", specifier = ">=0.9.9" },
     { name = "pytest", specifier = ">=8.4.1" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "requests", specifier = ">=2.32.4" },
 ]
 
