@@ -1,3 +1,4 @@
+from getpass import getpass
 import os
 import json
 from mju_sugang_alarm.course_list_crawler.authenticator import Authenticator
@@ -9,8 +10,11 @@ from mju_sugang_alarm.dto.request_lecture import RequestLecture
 
 def main():
     # 로그인 정보 (실제 사용 시 환경변수나 설정파일 사용 권장)
-    username = "YOUR_USERNAME"  # 예: "6022"
-    password = "YOUR_PASSWORD"
+    # username = "YOUR_USERNAME"  # 예: "6022"
+    # password = "YOUR_PASSWORD"
+    # 사용자 에게 입력 받기
+    username = input("학번을 입력하세요: ").strip()
+    password = getpass("비밀번호를 입력하세요: ").strip()
     
     # 1. authenticator 생성
     auth = Authenticator(verbose=True)
