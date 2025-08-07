@@ -16,13 +16,13 @@ def main():
     username, password = get_credentials()
 
     # 1. authenticator 생성
-    auth = Authenticator(verbose=True)
+    auth = Authenticator(verbose=False)
 
     # 2. repository 생성
     repository = CourseRepository()
 
     # 3. data_fetcher 생성 (repository 의존성 없음)
-    data_fetcher = LectureDataFetcher(auth, verbose=True)
+    data_fetcher = LectureDataFetcher(auth, verbose=False)
 
     # 4. crawler 생성 (외부에서 주입받음)
     crawler = LectureCrawler(data_fetcher, repository, verbose=True)
@@ -67,8 +67,9 @@ def get_credentials() -> tuple[str, str]:
         print("✅ .env 파일에서 사용자 정보를 성공적으로 로드했습니다.")
         return username, password
     else:
-        print("⚠️ .env 파일이 없으므로 직접 입력을 시작합니다.")
-        print("INFO: .env 파일을 만들고 다음 형식으로 사용자 정보를 저장할 수 있습니다:\nUSERNAME=your_username\nPASSWORD=your_password")
+        print("⚠️ INFO: 프로젝트 최상위에 .env 파일을 만들고 다음 형식으로 사용자 정보를 저장할 수 있습니다.")
+        print("USERNAME=your_username\nPASSWORD=your_password")
+        print("✅ .env 파일이 없으므로 직접 입력을 시작합니다.")
         username_input = input("학번을 입력하세요: ").strip()
         password_input = getpass("비밀번호를 입력하세요: ").strip()
         return username_input, password_input

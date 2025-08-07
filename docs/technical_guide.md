@@ -92,11 +92,13 @@ Referer: https://class.mju.ac.kr/main?lang=ko
 #### 요청 데이터 구조
 ```json
 {
-  "campusDiv": "캠퍼스구분",
-  "deptCd": "학과코드", 
-  "displayDiv": "표시구분",
-  "searchType": "검색타입",
-  "_csrf": "AJAX용_CSRF_토큰"
+    "courseCls": "",
+    "curiNm": "",
+    "campusDiv": "10",
+    "deptCd": "10000",
+    "displayDiv": "01",
+    "searchType": "1",
+    "excludeDay": ""
 }
 ```
 
@@ -104,10 +106,12 @@ Referer: https://class.mju.ac.kr/main?lang=ko
 
 | 파라미터 | 설명 | 예시값 |
 |---------|------|--------|
-| `campusDiv` | 캠퍼스 구분 | "1" (인문캠퍼스), "2" (자연캠퍼스) |
-| `deptCd` | 학과 코드 | "10101" (국어국문학과) |
-| `displayDiv` | 표시 구분 | "1" (전체), "2" (일부) |
-| `searchType` | 검색 타입 | "dept" (학과별), "major" (전공별) |
+| `courseCls` | 키워드 검색시 강좌번호 |  |
+| `campusDiv` | 캠퍼스 구분 | "10" (자연캠퍼스), "20" (인문캠퍼스) |
+| `deptCd` | 학과 코드 | "15611" (컴퓨터 공학과) |
+| `displayDiv` | 소분류(교양 과목 분류) | 02 채플, 03 영어, 04 영어회화 ... |
+| `searchType` | 검색 타입 | 1 기본값 , 2 키워드 검색 |
+| excludeDay | 제외 요일 |  |
 
 ### 4.3 응답 데이터 구조
 
@@ -128,6 +132,51 @@ Referer: https://class.mju.ac.kr/main?lang=ko
   }
 ]
 ```
+
+#### 4.4 응답 파리마터 설명(LLM)
+
+| 필드 | Full Form (약어 의미) | 값 | 설명 |
+|------|------------------------|----|------|
+| `curiyear` | **Curriculum Year** | `"2025"` | 개설 연도: 이 과목이 2025년도에 개설됨 |
+| `curismt` | **Curriculum Semester** | `"20"` | 학기 코드: `20` = 2학기, `10` = 1학기 |
+| `campusdiv` | **Campus Division** | `"20"` | 캠퍼스 구분: <br>• `10`: 인문(서울) 캠퍼스 <br>• `20`: 자연(용인) 캠퍼스 |
+| `classdiv` | **Class Division** | `"01"` | 분반: 1분반 (예: 01, 02, ...) |
+| `gbn` | **Gubun (구분)** | `"1"` | 수강 구분 코드 (예: 전공, 교양 등)<br>• 예: `1`=교양, `2`=전공 |
+| `curigbn` | **Curriculum Gubun** | `null` | 세부 과목 구분 코드 (예: 교양영역 등)<br>• 현재 미지정 또는 미사용 |
+| `comyear` | **Common Year** | `"0"` | 공통 개설 연도 기준 (통합 과목 여부 등)<br>• `0`: 일반, `1`: 공통 개설 과목 |
+| `curinum` | **Curriculum Number** | `"KMB02163"` | 과목 번호: 학과에서 부여한 고유 코드<br>• 예: `KMB02163` = 미래융합대학 관련 과목 |
+| `coursecls` | **Course Class** | `"6223"` | 강의 반 코드: 수강신청 시 구분용 고유 번호<br>• 학생이 수강신청할 때 이 코드로 선택 |
+| `curinum2` | **Curriculum Number 2** | `"기인163"` | 과목 약어 번호: 사용자 친화적인 과목 코드<br>• `기인` = 기초인문, `기과` = 기초과학 등 |
+| `curinm` | **Curriculum Name** | `"배려의행복학"` | 과목명: 수업의 이름 |
+| `groupcd` | **Group Code** | `"기인"` | 그룹 코드: 교양 영역 또는 과목 그룹<br>• 예: `기인`=기초인문, `기과`=기초과학, `핵교`=핵심교양 |
+| `cdtnum` | **Credit Number** | `"3"` | 학점 수: 이 과목은 3학점 |
+| `cdttime` | **Credit Time** | `"3"` | 이론 시간: 주당 3시간 강의 |
+| `takelim` | **Take Limit** | `"1"` | 정원: 최대 1명 수강 가능  |
+| `listennow` | **Listen Now** | `"0"` | 현재 수강 인원: 현재 0명 수강 중 |
+| `deptcd` | **Department Code** | `"17200"` | 학과 코드: `17200` = 미래융합대학 |
+| `deptnm` | **Department Name** | `"미래융합대학"` | 개설 학과명: 이 과목을 개설한 학과 |
+| `profid` | **Professor ID** | `null` | 교수 ID: 아직 교수 배정되지 않음 |
+| `profnm` | **Professor Name** | `"미배정"` | 교수명: "미배정" → 아직 담당 교수 없음 |
+| `largetp` | **Large Type** | `"00"` | 대분류 코드: 과목 분류 체계의 상위 코드 (예: 교양, 전공 등) |
+| `smalltp` | **Small Type** | `"11"` | 소분류 코드: 세부 분류 (예: 인문, 사회, 자연 등) |
+| `abotp` | **A/B Option** | `"N"` | AB옵션 여부: `N`=해당 없음, `Y`=성적을 A/B로만 부여 |
+| `lecttime` | **Lecture Time** | `null` | 강의 시간표 정보: 아직 시간/요일/강의실 미정 |
+| `dislevel` | **Disability Level** | `"00"` | 장애 학생 배려 수준 코드: 특별한 배려 없음 |
+| `curicontent` | **Curriculum Content** | `null` | 강의 개요/내용: 아직 입력되지 않음 |
+| `bagcnt` | **Bag Count** | `"1"` | 수강 제한 그룹: 같은 그룹의 과목 중 1개까지만 수강 가능 |
+| `dbtimelist` | **Database Time List** | `null` | 강의 시간 데이터 (구조화된 시간 정보): 아직 없음 |
+| `sugyn` | **Sugang Y/N** | `"N"` | 수강신청 가능 여부: `N`=불가능, `Y`=가능 (현재는 신청 불가) |
+| `addtime` | **Additional Time** | `null` | 추가 개설 시간: 아직 예정되지 않음 |
+| `internetyn` | **Internet Y/N** | `null` | 온라인 강의 여부: 정보 없음 |
+| `flexyn` | **Flex Y/N** | `"N"` | 플렉스 강의 여부: `N`=일반 강의, `Y`=시간 유연한 플렉스 수업 |
+| `classtype` | **Class Type** | `"1"` | 수업 유형: `1`=면대면, `2`=온라인, `3`=혼합 등 |
+| `lecperiod` | **Lecture Period** | `"2025-09-01 ~ 2025-12-12"` | 강의 기간: 2025년 9월 1일 ~ 12월 12일 (2학기) |
+| `bagorder` | **Bag Order** | `null` | 수강 우선순위 그룹: 없음 |
+| `pastcuridata` | **Past Curriculum Data** | `null` | 과거 수강 데이터: 이 과목의 과거 이력 없음 |
+| `pastcurigrade` | **Past Curriculum Grade** | `null` | 과거 평균 성적: 제공되지 않음 |
+| `pastcurigpa` | **Past Curriculum GPA** | `null` | 과거 평점 평균: 제공되지 않음 |
+| `lang` | **Language** | `"ko"` | 강의 언어: `ko`=한국어, `en`=영어 등 |
+
 
 #### 오류 응답
 - **403 Forbidden**: CSRF 토큰 만료 또는 권한 없음
