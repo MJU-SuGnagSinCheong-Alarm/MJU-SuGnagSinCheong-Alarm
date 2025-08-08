@@ -119,6 +119,61 @@ class LectureCrawler:
         self._log(f"🎉 전체 결과: {success_count}/{len(valid_categories)} 카테고리 성공, 총 {total_lectures}개 강의 수집")
         return success_count
     
+    def crawl_categories_dict(self, categories_dict: Dict[str, Dict[str, Any]]) -> int:
+        """
+        딕셔너리 형태의 카테고리 데이터에 대해 강의 검색 수행
+        
+        Args:
+            categories_dict: 카테고리명을 키로 하는 딕셔너리
+            
+        Returns:
+            int: 성공적으로 처리된 카테고리 수
+        """
+        if not categories_dict:
+            self._log("❌ 유효한 카테고리 데이터가 없습니다.")
+            return 0
+        
+        success_count = 0
+        total_lectures = 0
+        required_fields = ["campusDiv", "deptCd", "displayDiv", "searchType"]
+        
+        valid_categories = []
+        for category_name, category_data in categories_dict.items():
+            # 필수 필드 확인
+            missing_fields = [field for field in required_fields if field not in category_data]
+            if missing_fields:
+                self._log(f"⚠️ 필수 필드 누락 데이터 건너뜀: {category_name} - 누락된 필드: {missing_fields}")
+                continue
+            valid_categories.append((category_name, category_data))
+        
+        self._log(f"📊 유효성 검증 완료: {len(valid_categories)}/{len(categories_dict)} 개 카테고리가 유효함")
+        
+        for i, (category_name, category_data) in enumerate(valid_categories):
+            request = RequestLecture.from_dict(category_data)
+            
+            self._log(f"📚 [{i+1}/{len(valid_categories)}] '{category_name}' 카테고리 검색 중...")
+            
+            # 데이터 가져오기
+            result = self.data_fetcher.fetch_lectures(request)
+            
+            if result is not None:
+                # 데이터 저장
+                self.repository.save_lecture_response(result)
+                success_count += 1
+                current_count = self.repository.count()
+                new_lectures = current_count - total_lectures
+                total_lectures = current_count
+                self._log(f"✅ '{category_name}': {new_lectures}개 강의 추가 (누적: {total_lectures}개)")
+            else:
+                self._log(f"❌ '{category_name}' 검색 실패")
+            
+            # 요청 간 잠시 대기 (서버 부하 방지)
+            # import time
+            # time.sleep(0.01)
+        
+        self._log(f"🎉 전체 결과: {success_count}/{len(valid_categories)} 카테고리 성공, 총 {total_lectures}개 강의 수집")
+        return success_count
+    
     def crawl_from_json_file(self, json_file_path: str) -> int:
         """
         JSON 파일에서 검색 조건을 로드하여 강의 크롤링 수행
@@ -135,13 +190,13 @@ class LectureCrawler:
             with open(json_file_path, 'r', encoding='utf-8') as f:
                 lecture_search_data = json.load(f)
             
-            if not isinstance(lecture_search_data, list):
-                self._log(f"❌ JSON 파일 형식 오류: 리스트가 아닌 {type(lecture_search_data)} 타입")
+            if not isinstance(lecture_search_data, dict):
+                self._log(f"❌ JSON 파일 형식 오류: 딕셔너리가 아닌 {type(lecture_search_data)} 타입")
                 return 0
             
             self._log(f"📁 JSON 파일에서 {len(lecture_search_data)}개 항목 로드 완료")
             
-            return self.crawl_categories(lecture_search_data)
+            return self.crawl_categories_dict(lecture_search_data)
             
         except FileNotFoundError:
             self._log(f"❌ 파일을 찾을 수 없습니다: {json_file_path}")

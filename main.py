@@ -16,13 +16,13 @@ def main():
     username, password = get_credentials()
 
     # 1. authenticator 생성
-    auth = Authenticator(verbose=False)
+    auth = Authenticator(verbose=True)
 
     # 2. repository 생성
     repository = CourseRepository()
 
     # 3. data_fetcher 생성 (repository 의존성 없음)
-    data_fetcher = LectureDataFetcher(auth, verbose=False)
+    data_fetcher = LectureDataFetcher(auth, verbose=True)
 
     # 4. crawler 생성 (외부에서 주입받음)
     crawler = LectureCrawler(data_fetcher, repository, verbose=True)
