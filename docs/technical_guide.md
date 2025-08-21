@@ -77,11 +77,13 @@
 ### 4.1 AJAX 요청 구조
 
 #### 요청 URL
+
 ```
 POST https://class.mju.ac.kr/ajax/lectureSearch
 ```
 
 #### 필수 헤더
+
 ```http
 Content-Type: application/x-www-form-urlencoded
 X-Requested-With: XMLHttpRequest
@@ -116,19 +118,60 @@ Referer: https://class.mju.ac.kr/main?lang=ko
 ### 4.3 응답 데이터 구조
 
 #### 성공 응답 (JSON Array)
+
 ```json
 [
   {
-    "lectureCd": "강의코드",
-    "lectureName": "강의명",
-    "professorName": "교수명",
-    "credit": "학점",
-    "timeSchedule": "시간표",
-    "classroom": "강의실",
-    "capacity": "정원",
-    "enrolled": "신청인원",
-    "deptName": "학과명",
-    // ... 기타 필드
+[
+  {
+    "lectureCd": "강의 코드 (예: 6223)",
+    "lectureName": "강의 명 (예: 배려의행복학)",
+    "professorName": "교수 명 (예: 미배정 또는 교수 이름)",
+    "credit": "학점 수 (예: 3)",
+    "timeSchedule": "시간표 (예: 화 10:00~11:15, 목 10:00~11:15)",
+    "classroom": "강의실 (예: 공학관 203호 또는 미정)",
+    "capacity": "수강 정원 (예: 1)",
+    "enrolled": "현재 신청 인원 (예: 0)",
+    "deptName": "개설 학과 명 (예: 미래융합대학)",
+    "curiyear": "개설 연도 (예: 2025)",
+    "curismt": "학기 코드 (예: 20 → 2학기, 10 → 1학기)",
+    "campusdiv": "캠퍼스 구분 (예: 10 → 서울, 20 → 용인)",
+    "classdiv": "분반 번호 (예: 01)",
+    "gbn": "수강 구분 (예: 1 → 교양, 2 → 전공)",
+    "curigbn": "세부 과목 구분 코드 (예: null 또는 특정 코드)",
+    "comyear": "공통 개설 여부 (예: 0 → 일반, 1 → 공통)",
+    "curinum": "과목 번호 (예: KMB02163)",
+    "coursecls": "강의 반 코드 (예: 6223)",
+    "curinum2": "과목 약어 번호 (예: 기인163)",
+    "groupcd": "그룹 코드 (예: 기인 → 기초인문)",
+    "cdtnum": "학점 수 (예: 3)",
+    "cdttime": "이론 시간 (주당 수업 시간 수, 예: 3)",
+    "takelim": "정원 (최대 수강 가능 인원)",
+    "listennow": "현재 수강 인원",
+    "deptcd": "학과 코드 (예: 17200)",
+    "profid": "교수 ID (예: null 또는 교수 사번)",
+    "profnm": "교수 명",
+    "largetp": "대분류 코드 (예: 00)",
+    "smalltp": "소분류 코드 (예: 11)",
+    "abotp": "AB 옵션 여부 (Y/N)",
+    "lecttime": "강의 시간 및 장소 정보 (예: 화목 10:00~11:15, 공학관 203) 또는 null",
+    "dislevel": "장애 학생 배려 수준 코드 (예: 00)",
+    "curicontent": "강의 개요 및 내용 (텍스트 또는 null)",
+    "bagcnt": "수강 제한 그룹 수 (예: 1)",
+    "dbtimelist": "데이터베이스용 시간 정보 배열 (구조화된 시간 데이터, 예: null)",
+    "sugyn": "수강신청 가능 여부 (Y/N)",
+    "addtime": "추가 개설 시간 (예: null 또는 시간 정보)",
+    "internetyn": "온라인 강의 여부 (Y/N 또는 null)",
+    "flexyn": "플렉스 강의 여부 (Y/N)",
+    "classtype": "수업 유형 (1: 면대면, 2: 온라인, 3: 혼합)",
+    "lecperiod": "강의 기간 (예: 2025-09-01 ~ 2025-12-12)",
+    "bagorder": "수강 우선순위 그룹 (예: null)",
+    "pastcuridata": "과거 수강 데이터 (예: null)",
+    "pastcurigrade": "과거 성적 정보 (예: null)",
+    "pastcurigpa": "과거 평점 (예: null)",
+    "lang": "강의 언어 (ko: 한국어, en: 영어 .. )"
+  }
+]
   }
 ]
 ```
@@ -173,8 +216,8 @@ Referer: https://class.mju.ac.kr/main?lang=ko
 | `lecperiod` | **Lecture Period** | `"2025-09-01 ~ 2025-12-12"` | 강의 기간: 2025년 9월 1일 ~ 12월 12일 (2학기) |
 | `bagorder` | **Bag Order** | `null` | 수강 우선순위 그룹: 없음 |
 | `pastcuridata` | **Past Curriculum Data** | `null` | 과거 수강 데이터: 이 과목의 과거 이력 없음 |
-| `pastcurigrade` | **Past Curriculum Grade** | `null` | 과거 평균 성적: 제공되지 않음 |
-| `pastcurigpa` | **Past Curriculum GPA** | `null` | 과거 평점 평균: 제공되지 않음 |
+| `pastcurigrade` | **Past Curriculum Grade** | `null` | 과거 성적: 제공되지 않음 |
+| `pastcurigpa` | **Past Curriculum GPA** | `null` | 과거 평점: 제공되지 않음 |
 | `lang` | **Language** | `"ko"` | 강의 언어: `ko`=한국어, `en`=영어 등 |
 
 
