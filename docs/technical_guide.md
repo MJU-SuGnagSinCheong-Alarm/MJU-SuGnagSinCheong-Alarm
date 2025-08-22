@@ -13,6 +13,8 @@
 - **메인 페이지**: `https://class.mju.ac.kr/main?lang=ko`
 - **강의 검색 AJAX**: `https://class.mju.ac.kr/ajax/lectureSearch`
 
+> lectureSearch 이외에도 수강신청처리 ajax url 이 있지만 사용하면 안된다
+
 ### 1.2 인증 및 보안 체계
 
 #### CSRF (Cross-Site Request Forgery) 보호
@@ -21,9 +23,10 @@
 1. **로그인 시 CSRF 토큰**
    - 위치: 로그인 페이지의 `<input name="_csrf" value="토큰값">`
    - 용도: 로그인 요청 시 함께 전송
-   - 추출 방법: BeautifulSoup으로 HTML 파싱
+   - 추출 방법: HTML 파싱(BeautifulSoup, 정규식 등등)
 
 2. **AJAX 요청용 CSRF 토큰**
+   
    - 위치: 메인 페이지의 메타태그
      ```html
      <meta name="_csrf" content="토큰값">
@@ -122,8 +125,6 @@ Referer: https://class.mju.ac.kr/main?lang=ko
 ```json
 [
   {
-[
-  {
     "lectureCd": "강의 코드 (예: 6223)",
     "lectureName": "강의 명 (예: 배려의행복학)",
     "professorName": "교수 명 (예: 미배정 또는 교수 이름)",
@@ -171,8 +172,8 @@ Referer: https://class.mju.ac.kr/main?lang=ko
     "pastcurigpa": "과거 평점 (예: null)",
     "lang": "강의 언어 (ko: 한국어, en: 영어 .. )"
   }
-]
-  }
+  ,
+    ...........
 ]
 ```
 
@@ -194,8 +195,8 @@ Referer: https://class.mju.ac.kr/main?lang=ko
 | `groupcd` | **Group Code** | `"기인"` | 그룹 코드: 교양 영역 또는 과목 그룹<br>• 예: `기인`=기초인문, `기과`=기초과학, `핵교`=핵심교양 |
 | `cdtnum` | **Credit Number** | `"3"` | 학점 수: 이 과목은 3학점 |
 | `cdttime` | **Credit Time** | `"3"` | 이론 시간: 주당 3시간 강의 |
-| `takelim` | **Take Limit** | `"1"` | 정원: 최대 1명 수강 가능  |
-| `listennow` | **Listen Now** | `"0"` | 현재 수강 인원: 현재 0명 수강 중 |
+| `takelim` | **Take Limit** | `"30"` | 정원: 최대 30명 수강 가능 |
+| `listennow` | **Listen Now** | `"23"` | 현재 수강 인원: 현재 23명 수강 중 |
 | `deptcd` | **Department Code** | `"17200"` | 학과 코드: `17200` = 미래융합대학 |
 | `deptnm` | **Department Name** | `"미래융합대학"` | 개설 학과명: 이 과목을 개설한 학과 |
 | `profid` | **Professor ID** | `null` | 교수 ID: 아직 교수 배정되지 않음 |
