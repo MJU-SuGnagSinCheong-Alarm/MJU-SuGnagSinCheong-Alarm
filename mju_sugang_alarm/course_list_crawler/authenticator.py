@@ -128,7 +128,7 @@ class Authenticator:
     
             # 5. 로그인 성공 여부 판단
             final_url = login_response.url
-            if "main" in final_url or "main.do" in final_url:
+            if "main" in final_url:
                 self._log("🎉 로그인 성공!")
                 self._log(f"🏠 메인 페이지 접속: {final_url}")
                 self.is_logged_in = True

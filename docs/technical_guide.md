@@ -18,21 +18,23 @@
 ### 1.2 인증 및 보안 체계
 
 #### CSRF (Cross-Site Request Forgery) 보호
-시스템은 CSRF 공격을 방지하기 위해 두 가지 방식의 토큰을 사용합니다:
+시스템은 CSRF 공격을 방지하기 위해 두 가지 토큰을 사용합니다: 로그인 폼 요청시 사용하는 CSRF 토큰과, 로그인 후(ajax 요청 포함) 사용하는 CSRF 토큰입니다.
 
 1. **로그인 시 CSRF 토큰**
-   - 위치: 로그인 페이지의 `<input name="_csrf" value="토큰값">`
+   - 위치: 로그인 페이지의 `<input type="hidden" name="_csrf" value="토큰값">`
    - 용도: 로그인 요청 시 함께 전송
-   - 추출 방법: HTML 파싱(BeautifulSoup, 정규식 등등)
+   - 추출 방법: HTML 파싱(BeautifulSoup, 정규식 등등) 
+   - CSS 선택자: `#loginarea > form:nth-child(1) > input:nth-child(1)`
 
 2. **AJAX 요청용 CSRF 토큰**
    
    - 위치: 메인 페이지의 메타태그
      ```html
-     <meta name="_csrf" content="토큰값">
-     <meta name="_csrf_header" content="헤더명">
+     <meta id="_csrf" name="_csrf" content="토큰값(xxxx-xxxx...)">
+     <meta id="_csrf_header" name="_csrf_header" content="헤더명(X-CSRF-TOKEN)">
      ```
-   - 용도: 모든 AJAX 요청의 헤더와 데이터에 포함
+   - 추출방법: `#_csrf`, `#_csrf_header`
+   - 용도: 로그인 후 요청의 헤더에 포함
    - 특징: 로그인 후에만 접근 가능
 
 ## 2. 로그인 프로세스
@@ -65,7 +67,8 @@
 
 ### 3.1 세션 유지 방식
 - **쿠키 기반**: `requests.Session()`을 통한 자동 쿠키 관리
-- **User-Agent**: 브라우저로 위장하여 차단 방지
+- **User-Agent**: 브라우저로 위장하여 차단 방지 ?
+  
   ```
   Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
   ```
